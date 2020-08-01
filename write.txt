@@ -1,0 +1,20 @@
+cd /Users/xixiang/Documents/workspace/blog
+
+
+启动服务 hexo server  
+
+停止服务 control+c（键盘）
+
+git 提交
+git add .
+git commit -m '备注'
+git push origin master
+
+
+//码云上同步一下
+https://gitee.com/EscapeLonely/blog
+
+
+添加插件
+npm install -s 插件名
+使用插件在配置文件中配置
