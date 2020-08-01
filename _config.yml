@@ -4,7 +4,7 @@
 
 # Site
 title: xix
-subtitle: ''
+subtitle: 'xix的个人博客'
 description: ''
 keywords:
 author: xix
@@ -15,7 +15,7 @@ timezone: 'Asia/Shanghai'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://EscapeLonely.github.io/blog/
 root: /blog/
-permalink: :year/:month/:day/:title/
+permalink: :category/:id/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -45,17 +45,17 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
   enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+#   line_number: true
+#   auto_detect: false
+#   tab_replace: ''
+#   wrap: true
+#   hljs: false
+# prismjs:
+#   enable: false
+#   preprocess: true
+#   line_number: true
+#   tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
